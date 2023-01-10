@@ -1,5 +1,9 @@
 ### Web Backend Project 
 
+Course: CPSC 449 - Web Backend Engineering 
+
+Guided by Professor: @ProfAvery
+
 ##### PROJECT OVERVIEW
 This project builds off of a previous project 3 build, with some additional functionality such as webhook usage, message deliveries via Redis Queue queues, and UNIX cron service implementation. Details on webhook implementation can be seen in the foreman output throughout the execution of the game service's endpoint executions (specifically /addguess). Upon the completion of a game, foreman will also show information regarding the worker function being used for the message queue's job execution. In particular, it shows the successful completion of outputting a leaderboard after the leaderboard service receives information from the game service. And for the UNIX cron implementation, details can simply be seen by executing the following commands (in order) from the project's directory:
 
